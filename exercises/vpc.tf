@@ -1,4 +1,4 @@
 module "vpc" {
-  source  = "app.terraform.io/app/kumar-training/modules/view/vpc/aws"
+  source  = "app.terraform.io/kumar-training/vpc/aws"
   version = "2.33.0"
 }
